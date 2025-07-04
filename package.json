@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo static web app for Azure",
   "scripts": {
-    "build": "echo \"No build step necessary\""
+    "build": "react-scripts build"
   },
   "license": "MIT"
 }
