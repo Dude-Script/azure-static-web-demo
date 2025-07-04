@@ -4,6 +4,9 @@
   "description": "Demo static web app for Azure",
   "scripts": {
     "build": "react-scripts build"
+    "build": "vue-cli-service build"
+    "build": "next build"
+    "build": "ng build"
   },
   "license": "MIT"
 }
