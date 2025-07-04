@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "Demo static web app for Azure",
   "scripts": {
-    "start": "node index.js"
-    "build": "react-scripts build"
-    "build": "vue-cli-service build"
-    "build": "next build"
-    "build": "ng build"
-    "build": "webpack"
+    "start": "node index.js",
+    "build": "echo \"No build step necessary\""
   },
   "license": "MIT"
 }
