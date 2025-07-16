@@ -1,0 +1,16 @@
+<input id="prompt" />
+<button onclick="ask()">Send</button>
+<div id="response"></div>
+
+<script>
+  async function ask() {
+    const prompt = document.getElementById('prompt').value;
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt })
+    });
+    const data = await res.json();
+    document.getElementById('response').innerText = data.response;
+  }
+</script>
